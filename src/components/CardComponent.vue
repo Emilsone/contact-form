@@ -22,7 +22,7 @@
           ></KInput>
         </div>
         <div class="form-group">
-          <k-textarea
+          <k-Textarea
             class="form-input"
             :style="{ width: '290px' }"
             name="message"
@@ -32,10 +32,10 @@
           />
         </div>
         <div class="example-col">
-          <kbutton
+          <kButton
             :style="{ width: '100px' }"
             id="submit-btn"
-            >Submit form</kbutton
+            >Submit form</kButton
           >
         </div>
       </form>
@@ -59,8 +59,8 @@ export default {
   components: {
     card: Card,
     KInput: Input,
-    "k-textarea": TextArea,
-    kbutton: Button,
+    KTextarea: TextArea,
+    kButton: Button,
   },
   data() {
     return {
